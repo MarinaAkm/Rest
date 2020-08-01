@@ -37,5 +37,6 @@ public class ApiTest {
                 .log().all()
                 .statusCode(201)
                 .body(matchesJsonSchemaInClasspath("JsonSchema.json"));
+                //ghbd
     }
 }
